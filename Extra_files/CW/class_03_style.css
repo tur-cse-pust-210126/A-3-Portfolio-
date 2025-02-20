@@ -1,0 +1,30 @@
+.container{
+    border: 2px solid black
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px ;
+gap:2px ;
+
+}
+.item1{
+    
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    /* position: absolute; */
+    /* position: relative; */
+    /* left: 90px; */
+    /* bottom: 0px; */
+    /* right: 90px; */
+}
+.item2{
+    
+    width: 200px;
+    height: 200px;
+    background-color:black;}
+.item3{
+        flex-shrink: 5;
+        width: 200px;
+        height: 200px;
+        background-color:coral;}
